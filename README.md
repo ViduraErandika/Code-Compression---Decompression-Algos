@@ -16,4 +16,19 @@ will be counted from the leftmost (MSB) bit of the pattern – If the mismatch i
 be 00000.
 
 ### Seven formats of Code Compression
-<code><img height="30" src="https://github.com/ViduraErandika/ViduraErandika/blob/main/Logos/flutter.svg"></code>
+<img height="400" src="https://github.com/ViduraErandika/Code-Compression-Decompression-Algos/blob/master/compress_formats.jpg">
+
+### How to Run & Test the Code
+
+#### Compile to produce an executable named SIM.
+-  g++ SIM.cpp –o SIM
+#### Hardcoded input/output files are outlined in the repo as original.txt and compressed.txt
+#### Compress the input file (original.txt) and check with the expected output (compressed.txt)
+- SIM 1 (or java SIM 1)
+- fc cout.txt compressed.txt
+#### Decompress the input file (compressed.txt) and check with the expected output (original.txt)
+- SIM 2 (or java SIM 2)
+- fc dout.txt original.tx
+
+
+
